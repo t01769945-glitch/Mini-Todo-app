@@ -10,6 +10,7 @@ export default async function Home() {
   return (
     <>
       <AddTodo isLoggedIn={isLoggedIn}/>
+      
       <AllTodos isLoggedIn={isLoggedIn}/>
     </>
   );
