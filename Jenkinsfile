@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         // This references the credentials ID you just created in Jenkins
-        DOCKER_CREDS = credentials('Aniket')
+        DOCKER_CREDS = credentials('AniketTwo')
         // Your Docker Hub username (replace 'your-dockerhub-username')
         DOCKER_IMAGE = 'testing9920/todo-app'
     }
