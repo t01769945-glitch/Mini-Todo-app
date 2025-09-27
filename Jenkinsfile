@@ -36,7 +36,7 @@ pipeline {
     post {
         always {
             // Cleanup: Delete the built image from the Jenkins workspace
-            sh 'docker system prune -f'
+            bat 'docker system prune -f'
         }
     }
 }
